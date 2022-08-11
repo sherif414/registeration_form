@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <main class="h-screen grid place-items-center">
+        <div class="w-[70vw] h-[80vh] grid grid-cols-[70%_1fr]">
+          <section class="bg-[#3949AB]"></section>
+          <section class="bg-red-200">
+            <form action="#">
+              <h1>welcome</h1>
+              <div>
+                <input type="email" name="email" placeholder="email" id="email" />
+              </div>
+              <div>
+                <input type="password" name="password" placeholder="password" id="password" />
+              </div>
+              <a href="#">forgot password?</a>
+              <button class="login-btn">login</button>
+              <div>Or</div>
+              <div>
+                <button>Google</button>
+                <button>Github</button>
+              </div>
+              <div>don't have an account?</div>
+              <button>register</button>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
